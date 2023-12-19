@@ -1,6 +1,6 @@
+price = 1000
+
 def calcurate(price, tax):
-    total = price * tax
+    return price * tax    
 
-    print(f"{total}円(税込)")
-
-calcurate(1000, 1.1)
+print(f"{calcurate(price, 1.1)}円(税込)")
